@@ -105,8 +105,19 @@
     </ApplicationDefinition>
     <Compile Include="Managers\MidiToLilyHelper.cs" />
     <Compile Include="Managers\MusicLoader.cs" />
+    <Compile Include="Models\Music\BarlineSymbol.cs" />
+    <Compile Include="Models\Music\ClefSymbol.cs" />
+    <Compile Include="Models\Music\Enum\ClefType.cs" />
+    <Compile Include="Models\Music\Enum\MusicalSymbolDuration.cs" />
+    <Compile Include="Models\Music\Enum\TieType.cs" />
+    <Compile Include="Models\Music\Enum\RepeatSignType.cs" />
+    <Compile Include="Models\Music\Enum\StemDirection.cs" />
+    <Compile Include="Models\Music\NoteSymbol.cs" />
+    <Compile Include="Models\Music\RestSymbol.cs" />
     <Compile Include="Models\LilypondToken.cs" />
     <Compile Include="Models\LilypondTokenKind.cs" />
+    <Compile Include="Models\Music\Symbol.cs" />
+    <Compile Include="Models\Music\TimeSignatureSymbol.cs" />
     <Compile Include="ViewModels\MidiPlayerViewModel.cs" />
     <Compile Include="ViewModels\StaffsViewModel.cs" />
     <Compile Include="Views\MidiPlayerCtrl.xaml.cs">
