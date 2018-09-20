@@ -91,7 +91,7 @@ namespace DPA_Musicsheets.Managers
 
             WPFStaffs.AddRange(GetStaffsFromTokens(tokens));
             this.StaffsViewModel.SetStaffs(this.WPFStaffs);
-
+            
             MidiSequence = GetSequenceFromWPFStaffs();
             MidiPlayerViewModel.MidiSequence = MidiSequence;
         }
@@ -212,7 +212,7 @@ namespace DPA_Musicsheets.Managers
         {
             List<MusicalSymbol> symbols = new List<MusicalSymbol>();
 
-            Clef currentClef = null;
+            Clef currentClef = null;    
             int previousOctave = 4;
             char previousNote = 'c';
             bool inRepeat = false;

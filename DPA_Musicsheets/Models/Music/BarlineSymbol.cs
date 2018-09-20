@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PSAMControlLibrary;
+﻿using PSAMControlLibrary;
+using RepeatSignType = DPA_Musicsheets.Models.Music.Enum.RepeatSignType;
 
 namespace DPA_Musicsheets.Models.Music
 {
@@ -15,7 +11,7 @@ namespace DPA_Musicsheets.Models.Music
 
         public override MusicalSymbol GetMusicalSymbol()
         {
-            throw new NotImplementedException();
+            return new Barline {RepeatSign = (PSAMControlLibrary.RepeatSignType)RepeatSignType};
         }
     }
 }
