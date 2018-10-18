@@ -48,6 +48,11 @@ namespace DPA_Musicsheets.Managers
         /// <param name="fileName"></param>
         public void OpenFile(string fileName)
         {
+            LoaderFactory loaderFactory = new LoaderFactory();
+            var loader = loaderFactory.GetLoader(".ly");
+            loader.LoadFile(fileName);
+
+
             if (Path.GetExtension(fileName).EndsWith(".mid"))
             {
                 MidiSequence = new Sequence();
