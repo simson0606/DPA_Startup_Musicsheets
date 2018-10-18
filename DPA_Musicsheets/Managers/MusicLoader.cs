@@ -70,14 +70,14 @@ namespace DPA_Musicsheets.Managers
             }
             else
             {
-                throw new NotSupportedException($"File extension {Path.GetExtension(fileName)} is not supported.");
+                throw new NotSupportedException($"File Extension {Path.GetExtension(fileName)} is not supported.");
             }
 
             LoadLilypondIntoWpfStaffsAndMidi(LilypondText);
         }
 
         /// <summary>
-        /// This creates WPF staffs and MIDI from Lilypond.
+        /// This creates WPF staffs and MIDI from Lilypond.                                     
         /// TODO: Remove the dependencies from one language to another. If we want to replace the WPF library with another for example, we have to rewrite all logic.
         /// TODO: Create our own domain classes to be independent of external libraries/languages.
         /// </summary>

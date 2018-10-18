@@ -103,12 +103,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Managers\LilyLoader.cs" />
+    <Compile Include="Managers\SymbolBuilder\BarlineSymbolBuilder.cs" />
+    <Compile Include="Managers\SymbolBuilder\ClefSymbolBuilder.cs" />
+    <Compile Include="Managers\SymbolBuilder\LilySymbolBuilderFactory.cs" />
+    <Compile Include="Managers\Loader.cs" />
+    <Compile Include="Managers\LoaderFactory.cs" />
+    <Compile Include="Managers\MidiLoader.cs" />
+    <Compile Include="Managers\SymbolBuilder\MidiSymbolBuilderFactory.cs" />
     <Compile Include="Managers\MidiToLilyHelper.cs" />
     <Compile Include="Managers\MusicLoader.cs" />
+    <Compile Include="Managers\SymbolBuilder\NoteSymbolBuilder.cs" />
+    <Compile Include="Managers\SymbolBuilder\RestSymbolBuilder.cs" />
+    <Compile Include="Managers\SymbolBuilder\SymbolBuilder.cs" />
+    <Compile Include="Managers\SymbolBuilder\TimeSignatureBuilder.cs" />
     <Compile Include="Models\Music\BarlineSymbol.cs" />
     <Compile Include="Models\Music\ClefSymbol.cs" />
     <Compile Include="Models\Music\Enum\ClefType.cs" />
-    <Compile Include="Models\Music\Enum\MusicalSymbolDuration.cs" />
+    <Compile Include="Models\Music\Enum\SymbolDuration.cs" />
     <Compile Include="Models\Music\Enum\TieType.cs" />
     <Compile Include="Models\Music\Enum\RepeatSignType.cs" />
     <Compile Include="Models\Music\Enum\StemDirection.cs" />
