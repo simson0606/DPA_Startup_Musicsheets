@@ -163,7 +163,7 @@ namespace DPA_Musicsheets.Managers
                             }
                             break;
                         case MessageType.Channel:
-                            var channelMessage = midiEvent.MidiMessage as ChannelMessage;
+                            var channelMessage = midiMessage as ChannelMessage;
                             if (channelMessage.Command == ChannelCommand.NoteOn)
                             {
                                 if(channelMessage.Data2 > 0) // Data2 = loudness

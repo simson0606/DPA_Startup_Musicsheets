@@ -1,6 +1,6 @@
 ﻿namespace DPA_Musicsheets.Managers.SymbolBuilder
 {
-    public class RestSymbolBuilder
+    public class RestSymbolBuilder : SymbolBuilder
     {
         
     }

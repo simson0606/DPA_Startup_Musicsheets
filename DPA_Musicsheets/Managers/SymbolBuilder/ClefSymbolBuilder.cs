@@ -1,6 +1,6 @@
 ﻿namespace DPA_Musicsheets.Managers.SymbolBuilder
 {
-    public class ClefSymbolBuilder
+    public class ClefSymbolBuilder : SymbolBuilder
     {
         
     }

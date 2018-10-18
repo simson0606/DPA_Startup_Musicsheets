@@ -1,7 +1,7 @@
 ﻿
 namespace DPA_Musicsheets.Managers.SymbolBuilder
 {
-    public class TimeSignatureBuilder
+    public class TimeSignatureBuilder : SymbolBuilder
     {
     }
 }

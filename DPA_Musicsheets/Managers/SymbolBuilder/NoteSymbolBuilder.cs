@@ -1,6 +1,6 @@
 ﻿namespace DPA_Musicsheets.Managers.SymbolBuilder
 {
-    public class NoteSymbolBuilder
+    public class NoteSymbolBuilder : SymbolBuilder
     {
         
     }
