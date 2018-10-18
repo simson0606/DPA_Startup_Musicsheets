@@ -110,7 +110,9 @@
     <Compile Include="Managers\Loader.cs" />
     <Compile Include="Managers\LoaderFactory.cs" />
     <Compile Include="Managers\MidiLoader.cs" />
-    <Compile Include="Managers\SymbolBuilder\MidiSymbolBuilderFactory.cs" />
+    <Compile Include="Managers\SymbolBuilder\Midi\MidiChannelBuilderFactory.cs" />
+    <Compile Include="Managers\SymbolBuilder\Midi\MidiMetaSymbolFactory.cs" />
+    <Compile Include="Managers\SymbolBuilder\Midi\MidiSymbolBuilderFactory.cs" />
     <Compile Include="Managers\MidiToLilyHelper.cs" />
     <Compile Include="Managers\MusicLoader.cs" />
     <Compile Include="Managers\SymbolBuilder\NoteSymbolBuilder.cs" />

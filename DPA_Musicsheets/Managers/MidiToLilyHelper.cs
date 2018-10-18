@@ -78,7 +78,7 @@ namespace DPA_Musicsheets.Managers
                 }
             }
 
-            return duration + new String('.', dots);
+            return duration + new string('.', dots);
         }
 
         public static string GetLilyNoteName(int previousMidiKey, int midiKey)
